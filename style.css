@@ -1,0 +1,112 @@
+
+/* Background of the entire webpage */
+body {
+    background-color: #242424;
+    font-family: "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Main resume container */
+.page {
+    background-color: #9fb592;
+    width: 90%;
+    max-width: 910px;
+    margin: 38px auto;
+    padding: 12px 0 16px;
+}
+
+/* Resume title */
+.heading {
+    text-align: center;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.heading h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+/* Colored container around three divs */
+.buffer {
+    background-color: #598f8d;
+    width: 89%;
+    margin: auto;
+    padding: 0 20px 12px;
+    box-sizing: border-box;
+}
+
+/* Section title */
+.buffer h2 {
+    font-size: 13px;
+    margin: 0;
+    padding: 3px;
+}
+
+/* Three horizontal boxes */
+.columns {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 200px;
+}
+
+/* Individual boxes */
+.column {
+    background-color: #79b2b2;
+    width: 40%;
+    padding: 12px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+/* Left navigation box */
+.column:first-child {
+    background-color: #eeeeee;
+    width: 20%;
+}
+
+/* Section headings */
+.column h3 {
+    font-size: 16px;
+    margin: 0 0 15px;
+}
+
+/* Paragraphs */
+.column p {
+    margin: 12px 0;
+}
+
+/* Normal links */
+a:link {
+    color: blue;
+}
+
+/* Visited links */
+a:visited {
+    color: purple;
+}
+
+/* Hover links */
+a:hover {
+    color: red;
+}
+
+/* Active links */
+a:active {
+    color: orange;
+}
+
+/* Email footer */
+.footer {
+    background-color: #598f8d;
+    width: 89%;
+    margin: auto;
+    font-size: 12px;
+}
+
+.footer p {
+    margin: 0;
+}
